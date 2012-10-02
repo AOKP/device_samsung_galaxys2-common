@@ -23,6 +23,7 @@
     <array name="reboot_options" translatable="false">
         <item>@string/reboot</item>
         <item>@string/reboot_recovery</item>
+        <item>@string/reboot_download</item>
     </array>
 
     <!-- Do not translate. Defines the shutdown actions passed to the kernel.
@@ -30,6 +31,7 @@
     <string-array name="reboot_values" translatable="false">
         <item></item>
         <item>recovery</item>
+        <item>bootloader</item>
     </string-array>
 
 </resources>
