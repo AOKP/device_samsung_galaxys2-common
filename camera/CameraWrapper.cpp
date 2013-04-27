@@ -448,18 +448,17 @@ int camera_device_close(hw_device_t* device)
 
     android::Mutex::Autolock lock(gCameraWrapperLock);
 
-    if (!device) {
+    if (!device)
         ret = -EINVAL;
-        goto done;
+    else {
+        wrapper_dev = (wrapper_camera_device_t*) device;
+
+        wrapper_dev->vendor->common.close((hw_device_t*)wrapper_dev->vendor);
+        if (wrapper_dev->base.ops)
+            free(wrapper_dev->base.ops);
+        free(wrapper_dev);
     }
 
-    wrapper_dev = (wrapper_camera_device_t*) device;
-
-    wrapper_dev->vendor->common.close((hw_device_t*)wrapper_dev->vendor);
-    if (wrapper_dev->base.ops)
-        free(wrapper_dev->base.ops);
-    free(wrapper_dev);
-done:
 #ifdef HEAPTRACKER
     heaptracker_free_leaked_memory();
 #endif
