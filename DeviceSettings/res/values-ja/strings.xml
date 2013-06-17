@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">デバイス設定</string>
+
+    <string name="defaults_button">デフォルトにリセット</string>
+
+    <!-- Screen Preference -->
+    <string name="category_screen_title">スクリーン</string>
+    <string name="screen_colors_title">カラー</string>
+
+    <!-- Content adaptive backlight control -->
+    <string name="cabc_title_head">CABC</string>
+    <string name="cabc_summary_head">コンテンツ適応バックライト制御(CABC)を有効にする</string>
+
+    <!-- mDNIe -->
+    <string name="mdnie_scenario_title_head">シナリオ</string>
+    <string name="mdnie_scenario_summary_head">mDNIeシナリオを設定する</string>
+    <string name="mdnie_mode_title_head">モード</string>
+    <string name="mdnie_mode_summary_head">mDNIeモードを設定する</string>
+    <string name="mdnie_negative_title_head">ネガティブモード</string>
+    <string name="mdnie_negative_summary_head">色を反転する</string>
+    <string name="mdnie_outdoor_title_head">屋外モード</string>
+    <string name="mdnie_outdoor_summary_head">屋外モードを有効/無効にする</string>
+    <string name="panel_gamma_title_head">スクリーンガンマ</string>
+    <string name="panel_gamma_summary_head">スクリーンガンマ値を設定する</string>
+
+    <!-- Touchscreen tuning -->
+    <string name="touchscreen_subcat_title">タッチスクリーン</string>
+    <string name="touchscreen_sensitivity_title_head">タッチ感度</string>
+    <string name="touchscreen_sensitivity_summary_head">タッチパネル感度を設定する</string>
+
+    <!-- Touchkey tuning -->
+    <string name="touchkey_subcat_title">タッチキー</string>
+    <string name="touchkey_light_title_head">バックライト</string>
+    <string name="touchkey_light_summary_head">画面オン時にタッチキーを点灯する</string>
+    <string name="touchkey_timeout_title_head">バックライト点灯時間</string>
+    <string name="touchkey_timeout_summary_head">キータッチ後バックライトを消すまでの遅延時間</string>
+
+    <!-- Sensors Preference -->
+    <string name="category_sensors_title">センサー</string>
+    <string name="accelerometer_subcat_title">加速度センサー</string>
+    <string name="use_accelerometer_calibration_title_head">キャリブレーションデータを使用</string>
+    <string name="use_accelerometer_calibration_summary_head">加速度センサーのキャリブレーション値を使用、チェック後キャリブレーションしてください</string>
+    <string name="calibrate_accelerometer_title_head">キャリブレーション</string>
+    <string name="calibrate_accelerometer_summary_head">電話機を水平なところに置いて、キャリブレーション実施する</string>
+    <string name="accelerometer_dialog_head">キャリブレーション完了</string>
+    <string name="accelerometer_dialog_message">センサーのキャリブレーションに成功しました</string>
+
+    <!-- Haptic Preference -->
+    <string name="category_haptic_title">振動フィードバック</string>
+
+    <!-- VibratorTuning -->
+    <string name="vibrator_title">バイブレーター</string>
+    <string name="vibrator_tuning_title">バイブレーター強度</string>
+    <string name="vibrator_tuning_summary_head">バイブレーター強度を設定する</string>
+    <string name="vibrator_warning">%1$d より大きい値は推奨しません</string>
+
+    <!-- Radio Preference -->
+    <string name="category_radio_title">ラジオ</string>
+    <string name="hspa_title_head">HSPA</string>
+    <string name="hspa_summary_head">HSDPA/HSUPAを有効にする</string>
+
+    <!-- Dock Preference -->
+    <string name="category_dock_title">ドック</string>
+    <string name="dockaudio_subcat_title">ドックオーディオ</string>
+    <string name="use_dock_audio_title_head">ドックのUSBオーディオを使用</string>
+    <string name="use_dock_audio_summary_head">ドックのパッシブオーディオ出力を使用する</string>
+</resources>
